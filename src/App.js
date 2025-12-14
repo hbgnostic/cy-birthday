@@ -96,7 +96,7 @@ const coloredName = 'Cy'.split('').map((letter, index) => (
         </div>
         <div className="mt-8 max-w-full">
         <img
-            src={`${process.env.PUBLIC_URL}/Day1Pic.jpg`}
+            src={`${process.env.PUBLIC_URL}/Day1PicV2.jpg`}
             alt="Birthday celebration"
             className="mx-auto w-[300px] rounded-lg border-none"
           />
@@ -129,8 +129,8 @@ const blogContent = {
   date: '21st January, 2019',
   title: "Cy's Birthday Countdown",
   description: "Counting down the days to Cy's big day!",
-  image: `${process.env.PUBLIC_URL}/Day1Pic.jpg`,
-  authorAvatar: `${process.env.PUBLIC_URL}/Day1Pic.jpg`,
+  image: `${process.env.PUBLIC_URL}/Day1PicV2.jpg`,
+  authorAvatar: `${process.env.PUBLIC_URL}/Day1PicV2.jpg`,
 }
 
 const TitleComponent = ({ title, avatar }) => (
